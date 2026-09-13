@@ -22,7 +22,7 @@ main > section{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50%;
+    width: 75%;
     margin: auto;
     margin-bottom: 3rem;
 }
@@ -125,11 +125,12 @@ section > h2{
   max-width: 100%;
 }
 
-.feature > img{
+/* Estilização responsiva para os vídeos WebM */
+.feature video {
   display: block;
   width: 100%;
+  height: auto;
   max-width: 100%;
-  height: auto; 
   object-fit: cover;
 }
 
